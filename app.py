@@ -28,8 +28,8 @@ path=path+'/'+all_files[0]
 
 data=pd.read_csv(path)
 
-st.sidebar.header("Select feature to predict heart disease")
-# st.sidebar.image("")
+st.sidebar.header("Select feature to predict Diabetes")
+st.sidebar.image("https://www.eresvihda.es/wp-content/uploads/2023/10/Diabetes.gif")
 
 
 # gender encoding

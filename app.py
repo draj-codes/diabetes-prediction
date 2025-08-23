@@ -16,6 +16,7 @@ st.subheader(data_info)
 
 # ✅ Load model safely with joblib
 model = joblib.load("diabetes_model_XGB.pkl")
+joblib.dump(model, "diabetes_model_XGB.pkl")
 
 # ✅ Load dataset
 path = kagglehub.dataset_download("iammustafatz/diabetes-prediction-dataset")

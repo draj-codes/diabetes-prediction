@@ -2,5 +2,4 @@ pandas
 streamlit
 scikit-learn
 kagglehub
-pickle
 keras
